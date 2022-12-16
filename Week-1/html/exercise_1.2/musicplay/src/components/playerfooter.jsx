@@ -1,3 +1,4 @@
+import React from 'react'
 import { faPlay, faRandom, faStepBackward, faStepForward, faUndoAlt } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import './playerfooter.css'

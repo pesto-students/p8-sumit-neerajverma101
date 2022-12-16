@@ -1,3 +1,4 @@
+import React from 'react'
 import { faBars, faCloud, faCog, faHome, faSearch, faUser, faVolumeUp, faWifi } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './sidebar.css'

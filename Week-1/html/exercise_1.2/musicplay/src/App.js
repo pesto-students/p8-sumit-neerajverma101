@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 // import './App.css';
+import React from 'react'
 import CurrentSong from './components/currentsong';
 import PlayerFooter from './components/playerfooter';
 import PlayList from './components/playlist';

@@ -1,3 +1,4 @@
+import React from 'react'
 import './playlist.css'
 
 const PlayList = () => {
