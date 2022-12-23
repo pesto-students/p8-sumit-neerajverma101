@@ -35,7 +35,7 @@ const renderSideBarMenu = () => {
 const renderAlbumControls = () => {
   let element = ''
   albumControls.map((control, index) => {
-    element += `<article class='album-control-wrapper'>
+    element += `<article class='flex album-control-wrapper'>
       <article> <i class='${control.icon}'></i></article>
       <article class='album-control-label'>${control.label}</article>
       </article>`
@@ -46,7 +46,7 @@ const renderAlbumControls = () => {
 const renderPlaylist = () => {
   let element = ''
   songList.map((song, index) => {
-    element += `<article class='song-row'>`
+    element += `<article class='flex song-row'>`
 
     Object.keys(song).map(key => {
       element += `<article class='row-data'>

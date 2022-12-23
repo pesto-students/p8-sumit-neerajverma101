@@ -1,11 +1,9 @@
 .album-wrapper{
-  display:flex;
   background-color: #454545;
   padding: 24px;
 }
 
 .album-details{
-  display:flex;
   flex-direction:column;
   color: white;
   justify-content: space-between;
@@ -13,22 +11,12 @@
   font-weight: bold;
 }
 
-.album-detail-wrapper{
-  
-}
-
 .album-controls{
-  display:flex;
   justify-content: space-between;
 }
 
 .album-control-wrapper{
-  display: flex;
   column-gap: 6px;
-}
-
-.album-control-label{
-  
 }
 
 .album-image img{

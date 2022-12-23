@@ -1,5 +1,4 @@
 .player-footer-wrapper{
-  display:flex;
   position: fixed;
   bottom: 0px;
   background-color: #43689B;
@@ -11,21 +10,18 @@
 }
 
 .player-footer-song{
-  display:flex;
   column-gap:6px;
 }
 
 .player-footer-song-name-wrapper{
   font-size: x-small;
   font-weight: bold;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   row-gap: 16px;
 }
 
 .player-footer-controls{
-  display:flex;
   flex: 1;
   justify-content: space-between;
 }

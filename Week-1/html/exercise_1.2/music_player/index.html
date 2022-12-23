@@ -14,24 +14,26 @@
   <link rel="stylesheet" href="./css/currentsong.css" />
   <link rel="stylesheet" href="./css/playlist.css" />
   <link rel="stylesheet" href="./css/sidebar.css" />
+  <link rel="stylesheet" href="./css/common.css" />
+  
 </head>
 
 <body>
   <main>
-    <article class='main-content display-flex'>
+    <article class='main-content flex'>
 
-      <article id="sidebar-wrapper" class="sidebar-wrapper">
+      <article id="sidebar-wrapper" class="flex sidebar-wrapper">
       </article>
 
       <article class='song-playlist'>
 
-        <section class="album-wrapper">
+        <section class="flex album-wrapper">
           <section class="album-image">
             <img
               src='https://uploads.codesandbox.io/uploads/user/a8233562-b36b-483d-9de9-5a1ac148fb0c/2Eq--cattyboard.jpg'
               alt='album poster'></img>
           </section>
-          <section class="album-details">
+          <section class="flex album-details">
             <section class="album-detail-wrapper">
               <section class="album-name">
                 <h3>CattyBoard Top 100 Single Charts (11.06.36)</h3>
@@ -44,7 +46,7 @@
               </section>
             </section>
 
-            <section id="album-controls" class="album-controls">
+            <section id="album-controls" class="flex album-controls">
             </section>
 
           </section>
@@ -56,14 +58,14 @@
       </article>
     </article>
 
-    <footer class="player-footer-wrapper">
-      <section class="player-footer-song">
+    <footer class="flex player-footer-wrapper">
+      <section class="flex player-footer-song">
         <section class="player-footer-poster">
           <img
             src='https://uploads.codesandbox.io/uploads/user/a8233562-b36b-483d-9de9-5a1ac148fb0c/2Eq--cattyboard.jpg'
             alt='song poster'></img>
         </section>
-        <section class="player-footer-song-name-wrapper">
+        <section class="flex player-footer-song-name-wrapper">
           <section>
             If it Ain't Love
           </section>
@@ -72,7 +74,7 @@
           </section>
         </section>
       </section>
-      <section id="player-footer-controls" class="player-footer-controls">
+      <section id="player-footer-controls" class="flex player-footer-controls">
       </section>
     </footer>
   </main>

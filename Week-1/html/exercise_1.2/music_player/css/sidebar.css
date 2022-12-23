@@ -3,7 +3,6 @@
   background-color: #F0F0F0;
   padding: 24px 8px;
   align-items: center;
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
