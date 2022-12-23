@@ -1,0 +1,39 @@
+.square{
+    width: 150px;
+    height: 150px;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+.flex{
+    display: flex;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+.text-container{
+    font-size: xx-large;
+    position: absolute;
+    z-index: -1;
+}
+
