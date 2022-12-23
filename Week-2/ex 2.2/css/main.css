@@ -5,18 +5,30 @@
 
 .red{
     background-color: red;
+    transform: rotate(0deg);
+    transition: transform 1s linear;
+    transform-origin: top left;
 }
 
 .yellow{
     background-color: yellow;
+    transform: rotate(0deg);
+    transform-origin: top right;
+    transition: transform 1s linear;
 }
 
 .blue{
     background-color: blue;
+    transform: rotate(0deg);
+    transform-origin: bottom left;
+    transition: transform 1s linear;
 }
 
 .green{
     background-color: green;
+    transform: rotate(0deg);
+    transform-origin: bottom right;
+    transition: transform 1s linear;
 }
 
 .flex{
