@@ -37,3 +37,26 @@
     z-index: -1;
 }
 
+.main-container:hover .red{
+    transform: rotate(90deg);
+    transform-origin: top left;
+    transition: transform 1s linear;     
+}
+
+.main-container:hover .yellow{
+    transform: rotate(-90deg);
+    transform-origin: top right;
+    transition: transform 1s linear;     
+}
+
+.main-container:hover .blue{
+    transform: rotate(-90deg);
+    transform-origin: bottom left;
+    transition: transform 1s linear;     
+}
+
+.main-container:hover .green{
+    transform: rotate(90deg);
+    transform-origin: bottom right;
+    transition: transform 1s linear;
+}
