@@ -1,0 +1,39 @@
+.articles{
+    display: flex;
+    row-gap: 2rem;
+    flex-direction: column;
+}
+
+.article{
+    display: flex;
+    border: 1px solid rgb(223, 215, 215);
+    border-radius: 8px;
+    padding: 6px;
+}
+
+.article-content{
+    padding: 1rem;
+}
+
+.about-us{
+    width: 100%;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+img{
+    width: 20rem;
+}
+
+html{
+    font-family: 'Roboto', 'Lato', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    .articles{
+        flex-wrap: wrap;
+    }
+}
