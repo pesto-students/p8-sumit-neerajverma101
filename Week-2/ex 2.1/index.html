@@ -37,45 +37,51 @@
              </div>
             </article>
           </section>
-          <section>
-            <form class="signup-form" action="/signup" method="post">
+          <section class="">
+            <form class="signup-form" action="" method="post">
                 <h2>Sign Up</h2>
-                <p>Welcome to our website! Fill out the form below to create a new account and get started.</p>
-                <div class="form-field">
-                  <label for="first-name">First Name</label>
-                  <input type="text" id="first-name" name="first-name" required>
-                </div>
-                <div class="form-field">
-                  <label for="last-name">Last Name</label>
-                  <input type="text" id="last-name" name="last-name" required>
-                </div>
-                <div class="form-field">
-                  <label for="email">Email</label>
-                  <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-field">
-                  <label for="phone">Phone</label>
-                  <input type="tel" id="phone" name="phone" required>
-                </div>
-                <div class="form-field">
-                  <label for="password">Password</label>
-                  <input type="password" id="password" name="password" required>
-                </div>
-                <div class="form-field">
-                  <label for="password-confirm">Confirm Password</label>
-                  <input type="password" id="password-confirm" name="password-confirm" required>
-                </div>
-                <div class="form-field">
+                <p class="fs-small">Welcome to our website! Fill out the form below to create a new account and get started.</p>
+                <div class="form-inputs">
+                    
+                    <div class="form-field">
+                      <label for="first-name">First Name</label>
+                      <input type="text" id="first-name" name="first-name" required>
+                    </div>
+                    <div class="form-field">
+                      <label for="last-name">Last Name</label>
+                      <input type="text" id="last-name" name="last-name" required>
+                    </div>
+                    <div class="form-field">
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-field">
+                      <label for="phone">Phone</label>
+                      <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-field">
+                      <label for="password">Password</label>
+                      <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-field">
+                      <label for="password-confirm">Confirm Password</label>
+                      <input type="password" id="password-confirm" name="password-confirm" required>
+                    </div>
+                    
+                <div class="form-field checkbox">
                   <input type="checkbox" id="terms" name="terms" value="agree" required>
-                  <label for="terms">I agree to the <a href="/terms-and-conditions">terms and conditions</a>.</label>
+                  <label for="terms">I agree to the <a href="https://generator.lorem-ipsum.info/terms-and-conditions">terms and conditions</a>.</label>
                 </div>
+            </div>
+
                 <div class="form-field">
-                  <button type="submit">Sign Up</button>
+                  <button class="signup-button" type="submit">Sign Up</button>
                 </div>
               </form>
           </section>                     
       </main>
       <footer class="about-us">
+        <hr />
         <p>Copyright &copy; 2022 by Neeraj Verma</p>
         <p>This website is powered by HTML5/CSS</p>
         <p>Contact us at neerajverma101@gmail.com</p>

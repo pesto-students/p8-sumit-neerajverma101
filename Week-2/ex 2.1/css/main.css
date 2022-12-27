@@ -20,8 +20,53 @@
     text-align: center;
 }
 
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 30%;
+}
+
+.form-field{
+    display: flex;
+    justify-content: space-between;
+}
+
 .flex{
     display: flex;
+}
+
+.checkbox{
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+    column-gap: 8px;
+}
+
+.signup-button{
+    background-color: #003aff9c;
+    padding: 6px 24px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+}
+
+.signup-button:is(:hover,:focus){
+    color: #003aff9c;
+    background-color: #f7f7f7;
+    outline: 1px solid #003aff9c;
+}
+
+.signup-form{
+    border: 1px solid rgb(223, 215, 215);
+    border-radius: 8px;
+    padding: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.fs-small{
+    font-size: small;
 }
 
 img{
@@ -36,4 +81,18 @@ html{
     .articles{
         flex-wrap: wrap;
     }
+    .article{
+        flex-wrap: wrap;
+    }
+    .form-inputs{
+        width: 100%;
+        font-size: small;
+    }
+    .about-us{
+        font-size: small;
+    }
+    img{
+        width: 100%;
+    }
+
 }
