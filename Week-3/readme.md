@@ -56,6 +56,3 @@ stack.push(5);
 stack.pop();
 stack.items;
 ```
-
-## **Exercise 3.4** ##
-[Browse Assignment](../assignments.html)
