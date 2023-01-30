@@ -21,5 +21,7 @@ const threeSumClosest = (nums, target) => {
     return closest;
 };
 
+console.log(threeSumClosest([-1, 2, 1, - 4], 1))
+
 //  This function sorts the input array nums in ascending order and sets closest to the sum of the first three elements.
 //It then uses a two-pointer approach to find a pair of elements in the rest of the array that sums to the target, updating closest whenever a closer sum is found. 
