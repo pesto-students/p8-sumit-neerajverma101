@@ -9,7 +9,7 @@ Execute 3 callback functions asynchronously, for example doTask1(), doTask2() an
 
 Write a function called vowelCount which accepts a string and returns a map where the keys are numbers and the values are the count of the vowels in the string.
 
-# Exercise 5.3** #
+# **Exercise 5.3** #
 
 Write a function called hasDuplicate which accepts an array and returns true or false if that array contains a duplicate
 

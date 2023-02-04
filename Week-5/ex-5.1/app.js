@@ -1,20 +1,45 @@
+const doTask1 = () => {
+    return new Promise((resolve) => setTimeout(() =>
+        resolve("task 1 completed")
+        , 1000));
+}
+
+const doTask2 = () => {
+    return new Promise((resolve) => setTimeout(() =>
+        resolve("task 2 completed")
+        , 3000));
+}
+
+const doTask3 = () => {
+    return new Promise((resolve) => setTimeout(() =>
+        resolve("task 3 completed")
+        , 2000));
+}
+
+
 // Using Async/Await
-async function executeTasks() {
-    await doTask1();
-    await doTask2();
-    await doTask3();
-    console.log("All tasks completed!");
+async function executeTasksAsync() {
+    console.log(await doTask1());
+    console.log(await doTask2());
+    console.log(await doTask3());
+    console.log("All async tasks completed!");
 }
 
 // Using Generators
-function* executeTasks() {
-    yield doTask1();
-    yield doTask2();
-    yield doTask3();
-    console.log("All tasks completed!");
+async function* executeTasksGenerator() {
+    yield console.log(await doTask1());
+    yield console.log(await doTask2());
+    yield console.log(await doTask3());
+    console.log("All generator tasks completed!");
 }
 
-executeTasks();
+// executeTasksAsync();
+const gen = executeTasksGenerator()
+gen.next()
+gen.next()
+gen.next()
+
+
 
 /*
 In the first example, the function executeTasks is declared as async, which means it can use the await keyword. 
