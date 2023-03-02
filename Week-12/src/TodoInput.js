@@ -10,7 +10,7 @@ const TodoInput = ({ todo, setTodo, addTodo }) => {
           setTodo(e.target.value);
         }}
       />
-      <button className="add-button" onClick={addTodo}>
+      <button className={todo ? "add-button" : "add-button disabled"} onClick={addTodo}>
         Add
       </button>
     </div>

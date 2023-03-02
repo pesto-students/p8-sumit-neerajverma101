@@ -15,7 +15,7 @@ const TodoList = ({ list, remove, markComplete }) => {
                   }
                 }}
               >
-                Complete
+                {entry.status !== "done" ? "Complete" : "Completed"}
               </button>
               <button
                 className="delete-button"
