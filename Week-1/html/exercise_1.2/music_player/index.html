@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Music Player</title>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+  integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/playerfooter.css" />
+  <link rel="stylesheet" href="./css/currentsong.css" />
+  <link rel="stylesheet" href="./css/playlist.css" />
+  <link rel="stylesheet" href="./css/sidebar.css" />
+  <link rel="stylesheet" href="./css/common.css" />
+  
+</head>
+
+<body>
+  <main>
+    <article class='main-content flex'>
+
+      <article id="sidebar-wrapper" class="flex sidebar-wrapper">
+      </article>
+
+      <article class='song-playlist'>
+
+        <section class="flex album-wrapper">
+          <section class="album-image">
+            <img
+              src='https://uploads.codesandbox.io/uploads/user/a8233562-b36b-483d-9de9-5a1ac148fb0c/2Eq--cattyboard.jpg'
+              alt='album poster'></img>
+          </section>
+          <section class="flex album-details">
+            <section class="album-detail-wrapper">
+              <section class="album-name">
+                <h3>CattyBoard Top 100 Single Charts (11.06.36)</h3>
+              </section>
+              <section class="album-artist">
+                Unknown Artist
+              </section>
+              <section class="album-summary">
+                2016.Charts.100 songs
+              </section>
+            </section>
+
+            <section id="album-controls" class="flex album-controls">
+            </section>
+
+          </section>
+        </section>
+
+        <section id="playlist-wrapper" class="wrapper">
+        </section>
+
+      </article>
+    </article>
+
+    <footer class="flex player-footer-wrapper">
+      <section class="flex player-footer-song">
+        <section class="player-footer-poster">
+          <img
+            src='https://uploads.codesandbox.io/uploads/user/a8233562-b36b-483d-9de9-5a1ac148fb0c/2Eq--cattyboard.jpg'
+            alt='song poster'></img>
+        </section>
+        <section class="flex player-footer-song-name-wrapper">
+          <section>
+            If it Ain't Love
+          </section>
+          <section>
+            Catson Durelo
+          </section>
+        </section>
+      </section>
+      <section id="player-footer-controls" class="flex player-footer-controls">
+      </section>
+    </footer>
+  </main>
+  <script src="./js/app.js"></script>
+</body>
+</html>

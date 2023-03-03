@@ -1,0 +1,31 @@
+.player-footer-wrapper{
+  position: fixed;
+  bottom: 0px;
+  background-color: #43689B;
+  width: calc(100% - 20px);
+  padding: 10px;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+
+.player-footer-song{
+  column-gap:6px;
+}
+
+.player-footer-song-name-wrapper{
+  font-size: x-small;
+  font-weight: bold;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 16px;
+}
+
+.player-footer-controls{
+  flex: 1;
+  justify-content: space-between;
+}
+
+.player-footer-poster{
+  width:25%
+}
