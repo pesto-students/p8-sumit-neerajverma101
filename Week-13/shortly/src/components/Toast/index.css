@@ -1,0 +1,50 @@
+.toast {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    transform: translateY(100%);
+    opacity: 0;
+    border: 1px solid;
+    min-width: 22rem;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    max-width: 22rem;
+    transition:
+        opacity 500ms,
+        transform 500ms;
+}
+
+.toast-body {
+    color: darkblue;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    text-align: left;
+}
+
+.toast.visible {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.display-none{
+    display: none;
+}
+
+.close-toast{
+    font-weight: bolder;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.1rem;
+    background-color: white;
+    border-radius: 1rem;
+    border: 1px solid;
+    width: 20px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem 0.1rem;
+    cursor: pointer;
+}
